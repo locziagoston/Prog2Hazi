@@ -24,6 +24,18 @@ public class main {
         }while(r!=0);
         return a;
     }
+    
+    public static boolean palindrom(int szam)
+    {
+        int másolat=szam;
+        int újszám=0;
+        while(szam>0){
+            int szj=szam%10;
+            újszám=újszám*10+szj;
+            szam=szam/10;
+        }
+        return újszám==másolat;
+    }
             
     public static void main(String[] args) {
 //        
