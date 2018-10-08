@@ -7,16 +7,16 @@ package fénykép;
 
 public class fényképezőgép {
     
-    private String mérka;
+    private String márka;
     private String fénykép;
 
     public fényképezőgép(String mérka, String fénykép) {
-        this.mérka = mérka;
+        this.márka = márka;
         this.fénykép = fénykép;
     }
 
-    public String getMérka() {
-        return mérka;
+    public String getMárka() {
+        return márka;
     }
 
     public String getFénykép() {
@@ -25,7 +25,7 @@ public class fényképezőgép {
 
     @Override
     public String toString() {
-        return "f\u00e9nyk\u00e9pez\u0151g\u00e9p{" + "m\u00e9rka=" + mérka + ", f\u00e9nyk\u00e9p=" + fénykép + '}';
+        return "f\u00e9nyk\u00e9pez\u0151g\u00e9p{" + "m\u00e9rka=" + márka + ", f\u00e9nyk\u00e9p=" + fénykép + '}';
     }
     
     
